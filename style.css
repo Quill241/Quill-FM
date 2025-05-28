@@ -1,0 +1,98 @@
+*{
+   font-family: poppins, sans-serif;
+   box-sizing: border-box;
+   text-transform: capitalize;
+   margin: 0px;
+   outline: 0px;
+   text-decoration: none;
+   color:white;
+}
+.heading{
+   text-align: center;
+   padding: 2rem 0;
+   padding-bottom: 2rem;
+   color:white;
+}
+
+
+header{
+  padding: 1rem;  
+ }
+ .header{
+   position: fixed;
+    z-index: 1000;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: space-between;
+    background-color: black;
+ }
+
+
+ .header .navbar a{
+    font-size: 1rem;
+    color: rgb(226, 218, 218);
+     height: 4rem;
+   line-height: 4rem;
+    font-size: 1rem;
+    margin-right: 4rem;
+    cursor: pointer;
+    text-align: center;
+ }
+
+ .header .navbar a:hover{
+    color: orange;
+ }
+
+ section{
+    z-index: 50;
+    text-align: center;
+    background-image: url();
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 2rem;
+ }
+ .home{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    background: url(images/studio.jpg) no-repeat ;
+    background-position: center;
+    background-size: cover;
+    padding-top: 17rem;
+    padding-bottom: 35rem;
+ }
+
+ .content h1{
+    font-size: 90px;
+    padding-right: 895px;
+    padding-top: 70px;
+ }
+
+ .content h1 span{
+    color: orange;
+ }
+
+.content h1 p{
+    font-size: ;
+    padding-right: 895px;
+    padding-top: 70px;
+ }
+
+.btn{
+   margin-top: 1rem;
+   display: inline-block;
+   padding-right: ;
+   font-size: 1.2rem;
+   width: 12rem;
+   text-align: center;
+   border-radius: 0.2rem;
+   border: 0.1rem solid orange;
+   color:white;
+   cursor: pointer;
+   background: orange;
+ }
+
+ .btn:hover{
+ background: transparent;
+ }
