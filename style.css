@@ -132,13 +132,10 @@ header{
     padding: 1rem 1rem ;
     background: transparent;
     text-align: center;
+    width: 100%;
  }
 
 
- .aboutus .box-container .box img{
-   
-    width:500px;
- }
  .aboutus .box-container .box h1{
     line-height: 1.6;
     color: rgb(245, 233, 233);
