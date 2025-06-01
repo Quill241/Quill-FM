@@ -73,10 +73,12 @@ header{
     color: orange;
  }
 
-.content h1 p{
-    font-size: ;
+ .content  p{
+    font-size: 25px;
     padding-right: 895px;
+
     padding-top: 70px;
+    
  }
 
 .btn{
@@ -96,3 +98,95 @@ header{
  .btn:hover{
  background: transparent;
  }
+
+ section {
+   background-color: rgb(56, 56, 60);
+ }
+.heading {
+    text-align: center;
+    padding: 2rem 2rem;
+    padding-bottom: 2rem;
+    font-size: 3.5rem;
+    color: rgb(250, 233, 233);
+}
+
+ .aboutus .box-container{
+   display: flex;
+   grid-template-columns: 1fr 1fr 1fr;
+    /* display: flex; */
+    /* grid-template-columns: repeat(autofit, minimax(30rem, 1fr)); */
+    }
+
+
+ .aboutus .heading span{
+    color: orange;
+ }
+
+
+ .aboutus .box-container .box{
+    padding: 1rem 1rem ;
+    background: transparent;
+    text-align: center;
+ }
+
+
+ .aboutus .box-container .box img{
+   
+    width:500px;
+ }
+ .aboutus .box-container .box h1{
+    line-height: 1.6;
+    color: rgb(245, 233, 233);
+    padding-right: 300px;
+ }
+ .aboutus .box-container .box p{
+    font-size: 10px;
+    line-height:1.2rem;
+    background: transparent;
+    padding: 1rem 0;
+ }
+
+ .info {
+   background: url(images/woman.jpg) no-repeat rgb(167, 94, 144);
+   height: 40rem;
+   object-fit: contain;
+
+ }
+
+ .info h3{
+   color: rgb(255, 254, 254);
+   text-align: center;
+   padding-left: 500px;
+ }
+
+ .info .heading{
+   padding-top: 50px;
+   padding-left: 700px;
+   color: rgb(252, 249, 249);
+ }
+
+ .info .heading span{
+   color: orange;
+ }
+
+ .info h3{
+   padding-top: 20px;
+   padding-left: 700px;
+   color: white;
+ }
+
+
+ .info p{
+   padding-top: 50px;
+   padding-left: 700px;
+   color: rgb(243, 240, 240);
+ }
+
+ .info img{
+   padding-top: 50px;
+   padding-left: 100px;
+   padding-bottom: 200px;
+   width: 250px;
+   cursor: pointer;
+ }
+
