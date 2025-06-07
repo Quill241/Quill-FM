@@ -2,6 +2,7 @@
    font-family: poppins, sans-serif;
    box-sizing: border-box;
    text-transform: capitalize;
+   padding: 0px;
    margin: 0px;
    outline: 0px;
    text-decoration: none;
@@ -50,7 +51,7 @@ header{
  }
 
  .header .navbar a:hover{
-    color: orange;
+    color: darkorange;
  }
 
  section{
@@ -61,16 +62,19 @@ header{
     background-size: cover;
     padding: 2rem;
  }
+
+ 
  .home{
     display:flex;
     align-items: center;
     justify-content: center;
-    background: url(images/studio.jpg) no-repeat ;
+    background: url(images/studio.jpg) no-repeat;
     background-position: center;
     background-size: cover;
     padding-top: 17rem;
     padding-bottom: 35rem;
  }
+
 
  .content h1{
     font-size: 90px;
@@ -79,7 +83,7 @@ header{
  }
 
  .content h1 span{
-    color: orange;
+    color: darkorange;
  }
 
  .content  p{
@@ -92,22 +96,23 @@ header{
    display: inline-block;
    padding:  15px 20px;
    font-size: 1.2rem;
-   width: 12rem;
+   width: 15rem;
    border-radius: 0.2rem;
    text-align: center;
-   border: 0.1rem solid orange;
+   border: 0.1rem solid darkorange;
    color:white;
    cursor: pointer;
-   background: orange;
+   background: darkorange;
  }
 
  .btn:hover{
  background: transparent;
  }
 
- section {
+ .aboutus{
    background-color: rgb(56, 56, 60);
  }
+
 .heading {
     text-align: center;
     padding: 2rem 2rem;
@@ -124,10 +129,13 @@ header{
 
 
  .aboutus .heading span{
-    color: orange;
+    color: darkorange;
  }
 
 
+ .aboutus h4{
+   font-size: 20px;
+ }
  .aboutus .box-container .box{
     padding: 1rem 1rem ;
     background: transparent;
@@ -139,7 +147,6 @@ header{
  .aboutus .box-container .box h1{
     line-height: 1.6;
     color: rgb(245, 233, 233);
-    padding-right: 300px;
  }
  .aboutus .box-container .box p{
     font-size: 10px;
@@ -149,9 +156,9 @@ header{
  }
 
  .info {
-   background: url(images/woman.jpg) no-repeat rgb(167, 94, 144);
+   background: url(images/woman.jpg) no-repeat rgba(135, 17, 98, 0.467);
    height: 40rem;
-   object-fit: contain;
+   
 
  }
 
@@ -168,7 +175,7 @@ header{
  }
 
  .info .heading span{
-   color: orange;
+   color: darkorange;
  }
 
  .info h3{
@@ -184,11 +191,83 @@ header{
    color: rgb(243, 240, 240);
  }
 
- .info img{
-   padding-top: 50px;
-   padding-left: 100px;
-   padding-bottom: 200px;
-   width: 250px;
+
+.podcasts{
+   display: grid;
+   grid-template-columns: 1fr 1fr 1fr;
+   width: 400px;
    cursor: pointer;
+   padding-top: 20px;
+   margin-left: 60rem;
+
+}
+
+   .blogs{
+   display:flex;
+    align-items: center;
+    justify-content: center;
+    background: url(images/studio.jpg) no-repeat ;
+    background-position: center;
+    background-size: cover;
+    padding-top: 7rem;
+    padding-bottom: 1rem;
  }
 
+
+ .blog{
+   background: rgba(69, 61, 99, 0.807);
+   padding-top: 70px;
+   padding-bottom: 50px;
+   background-size: 4rem;
+   border-radius: 10%;
+   margin-left: 250px;
+ }
+
+ .blog h3{
+   color: rgb(224, 220, 235);
+ }
+
+.blog img{
+   border-radius: 500%;
+   width: 100px;
+   margin-top: 50px;
+   margin-right: 600px;
+}
+
+.blog p{
+   padding-right: 400px;
+   padding-bottom: 50px;
+}
+
+.blog span{
+   color: darkorange;
+}
+
+
+.blogss {
+   margin-right: 100px;
+   padding-left: 120px;
+}
+
+.blogss h2{
+   font-size: 60px;
+   
+}
+
+.blogss h2 span{
+   color: darkorange;
+}
+
+
+.blogss p{
+   color: rgb(247, 247, 250);
+   font-size: 19px;
+}
+
+.aboutus h3 {
+   background-color: rgba(128, 0, 128, 0.562);
+   width: 100%;
+   height: 300px;
+   padding-top: 100px;
+   text-align: center;
+}
