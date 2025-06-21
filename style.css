@@ -306,7 +306,6 @@
 
 
  .footer {
-            background: url(images/studio.jpg) no-repeat;
             background-size: 100%;
    
       
@@ -351,7 +350,7 @@
 .footer .box-container .box p {
     line-height: 1.8;
     font-size: 1.3rem;
-    color: white;
+    color: rgb(16, 15, 15);
     padding: 1rem 0;
 }
 
